@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #191919;
+    text-align: center;
+    margin: 0;
+}
+section{
+    box-sizing: border-box;
+    width: 50%;
+    min-width: 600px;
+    height: 90%;
+    border: 3px solid #b89b00;
+}
+#title{
+    color: #b89b00;
+    font-size: 50px;
+    height: 300px;
+    line-height: 300px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playball', cursive;
+}
+form{
+    margin-bottom: 80px;
+}
+#search{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #191919;
+    color: white;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playball', cursive;
+    outline: none;
+}
+#button{
+    margin-top: 30px;
+    width: 80px;
+    height: 30px;
+    background-color: #b89b00;
+    color: white;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playball', cursive;
+}
+#button:hover{
+    opacity: 0.7;
+}
+#writer{
+    padding-top: 30px;
+    margin: auto auto;
+    border-top: 2px solid #b89b00;
+    width: 150px;
+    color: #b89b00;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playball', cursive;
+}
